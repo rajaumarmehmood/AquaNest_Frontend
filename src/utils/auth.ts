@@ -1,5 +1,8 @@
 // API URL for backend - ensure this matches Railway deployment
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "https://aquanestbackend-production.up.railway.app/api";
+const API_URL = "https://aquanestbackend-production.up.railway.app/api";
+
+// Debug: Log the API URL to see what's being used
+console.log('API_URL being used:', API_URL);
 
 function getAuthHeaders() {
   if (typeof window === 'undefined') return {};
