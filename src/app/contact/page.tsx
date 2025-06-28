@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "https://aquanestbackend-production.up.railway.app/api";
+const API_URL = "https://aquanestbackend-production.up.railway.app/api";
 
 export default function ContactPage() {
   const [name, setName] = useState("");

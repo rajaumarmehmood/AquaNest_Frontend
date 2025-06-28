@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { useCart } from '../../context/CartContext';
 import { fetchWithAuth } from '../../utils/auth';
+import { useAuth } from "../../context/AuthContext";
 
 type Product = {
   _id: string;
@@ -15,7 +16,7 @@ type Product = {
   image?: string;
 };
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "https://aquanestbackend-production.up.railway.app/api";
+const API_URL = "https://aquanestbackend-production.up.railway.app/api";
 
 export default function ProductsPage() {
   const [products, setProducts] = useState<Product[]>([]);

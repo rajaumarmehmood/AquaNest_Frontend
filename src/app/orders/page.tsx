@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { fetchWithAuth } from '../../utils/auth';
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "https://aquanestbackend-production.up.railway.app/api";
+const API_URL = "https://aquanestbackend-production.up.railway.app/api";
 
 type Order = {
   _id: string;
