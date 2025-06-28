@@ -4,7 +4,7 @@ import { useRouter } from "next/navigation";
 import { motion } from "framer-motion";
 import { useAuth } from "../../context/AuthContext";
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000/api";
+const API_URL = process.env.NEXT_PUBLIC_API_URL || "https://aquanestbackend-production.up.railway.app/api";
 
 export default function RegisterPage() {
   const [name, setName] = useState("");
