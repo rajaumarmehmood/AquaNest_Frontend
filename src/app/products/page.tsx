@@ -15,7 +15,7 @@ type Product = {
   image?: string;
 };
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000/api";
+const API_URL = process.env.NEXT_PUBLIC_API_URL || "https://aquanestbackend-production.up.railway.app/api";
 
 export default function ProductsPage() {
   const [products, setProducts] = useState<Product[]>([]);
