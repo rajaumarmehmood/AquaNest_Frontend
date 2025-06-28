@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { useCart } from '../../context/CartContext';
 import { fetchWithAuth } from '../../utils/auth';
-import { useAuth } from "../../context/AuthContext";
 
 type Product = {
   _id: string;
