@@ -1,3 +1,4 @@
+// API URL for backend - ensure this matches Railway deployment
 const API_URL = process.env.NEXT_PUBLIC_API_URL || "https://aquanestbackend-production.up.railway.app/api";
 
 function getAuthHeaders() {
