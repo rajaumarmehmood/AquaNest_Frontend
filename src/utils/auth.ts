@@ -49,4 +49,8 @@ export function getCurrentUser() {
   if (typeof window === 'undefined') return null;
   const user = localStorage.getItem('user');
   return user ? JSON.parse(user) : null;
+<<<<<<< Updated upstream
 } 
+=======
+}
+>>>>>>> Stashed changes

@@ -6,4 +6,4 @@
   "env": {
     "NEXT_PUBLIC_API_URL": "https://aquanestbackend-production.up.railway.app/api"
   }
-} 
+}
